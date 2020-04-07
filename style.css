@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: monospace;
+  background-color: #F9F9F2; }
+
+.navbar {
+  background-color: #383833 !important;
+  height: 10%;
+  font-family: monospace; }
+  .navbar a {
+    font-size: 16px;
+    color: #F9F9F2 !important; }
+  .navbar a:hover {
+    color: #F24236 !important; }
+  .navbar .navbar-brand {
+    font-size: 24px;
+    pointer-events: none;
+    color: #F24236 !important; }
+  .navbar .collapsing, .navbar .navbar.show, .navbar .collapse {
+    background: #383833 !important; }
+
+.starter {
+  position: absolute;
+  top: 10%;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .starter img {
+    width: 300px; }
+  .starter p {
+    margin: 0em;
+    font-family: monospace;
+    text-shadow: black;
+    font-size: 30px; }
+    .starter p span {
+      font-weight: bold; }
+  .starter .img_div {
+    text-align: center; }
+  .starter .button_div {
+    padding-top: 5%;
+    text-align: center; }
+    .starter .button_div .btn {
+      color: #F9F9F2;
+      background-color: #0D3B66;
+      border: #0D3B66; }
+    .starter .button_div .btn:hover {
+      color: #F24236; }
+
+#all_hounds {
+  background-color: black; }
+
+/*# sourceMappingURL=style.css.map */

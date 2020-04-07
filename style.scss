@@ -1,0 +1,102 @@
+$textcolor: #F9F9F2;
+$nav_color: #383833;
+$hover_color: #F24236;
+$background_color: #F9F9F2;
+$button_color: #0D3B66;
+$brand_color: #F24236;
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: monospace;
+    background-color: $background_color;
+}
+
+.navbar 
+{
+    background-color: $nav_color !important;
+    height: 10%;
+    font-family: monospace;
+
+    a
+    {
+        font-size: 16px;
+        color: $textcolor !important;
+    }
+    a:hover
+    {
+        color: $hover_color !important;
+    }
+
+    .navbar-brand
+    {
+        font-size: 24px;
+        pointer-events: none;
+        color: $brand_color !important;
+    }
+
+    .collapsing, .navbar.show, .collapse{
+    background: $nav_color !important;
+}
+}
+
+.starter
+{
+    position: absolute;
+    top: 10%;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img
+    {
+        width: 300px;
+    }
+
+    p
+    {
+        margin: 0em;
+        font-family: monospace;
+        text-shadow: black;
+        font-size: 30px;
+
+        span
+        {
+            font-weight: bold;
+        }
+    }
+
+    .img_div
+    {
+        text-align: center; 
+    }
+
+    .button_div
+    {
+        padding-top: 5%;
+        text-align: center;
+
+        .btn
+        {
+            color: $textcolor;
+            background-color: $button_color;
+            border: #0D3B66;
+        }
+
+        .btn:hover
+        {
+            color: $hover_color;
+        }
+    }
+}
+
+#all_hounds
+{
+    background-color: black;
+}
