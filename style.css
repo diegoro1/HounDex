@@ -21,12 +21,12 @@ body {
   .navbar .collapsing, .navbar .navbar.show, .navbar .collapse {
     background: #383833 !important; }
 
-.main {
+#main {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 4%; }
-  .main .starter {
+  #main .starter {
     height: 100vh;
     bottom: 20px;
     width: 100%;
@@ -34,33 +34,48 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center; }
-    .main .starter img {
+    #main .starter img {
       width: 300px; }
-    .main .starter p {
+    #main .starter p {
       margin: 0em;
       font-family: monospace;
       font-size: 30px; }
-      .main .starter p span {
+      #main .starter p span {
         font-weight: bold; }
-    .main .starter .img_div {
+    #main .starter .img_div {
       text-align: center; }
-    .main .starter .button_div {
+    #main .starter .button_div {
       padding-top: 5%;
       text-align: center; }
-      .main .starter .button_div .btn {
+      #main .starter .button_div .btn {
         color: #F9F9F2;
         background-color: #0D3B66;
         border: #0D3B66; }
-      .main .starter .button_div .btn:hover {
+      #main .starter .button_div .btn:hover {
         color: #F24236; }
-  .main #all_hounds .card_div {
+  #main #all_hounds {
     display: flex;
-    width: 100%;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 8%; }
-    .main #all_hounds .card_div .card {
-      margin: 10px; }
+    flex-wrap: wrap; }
+    #main #all_hounds .title {
+      font-size: 36px;
+      margin-top: 12%;
+      width: 100%;
+      text-align: center; }
+    #main #all_hounds .card_div {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 2%; }
+      #main #all_hounds .card_div .card {
+        margin: 10px; }
+        #main #all_hounds .card_div .card li.list-group-item {
+          height: 44px; }
+    #main #all_hounds .left {
+      float: right; }
+    #main #all_hounds .right {
+      float: left; }
 
 /*# sourceMappingURL=style.css.map */
