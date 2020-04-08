@@ -44,59 +44,83 @@ body
 }
 }
 
-.starter
+.main
 {
-    position: absolute;
-    top: 10%;
-    bottom: 20px;
-    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 4%;
 
-    img
+    .starter
     {
-        width: 300px;
-    }
-
-    p
-    {
-        margin: 0em;
-        font-family: monospace;
-        text-shadow: black;
-        font-size: 30px;
-
-        span
-        {
-            font-weight: bold;
-        }
-    }
-
-    .img_div
-    {
-        text-align: center; 
-    }
-
-    .button_div
-    {
-        padding-top: 5%;
+        height: 100vh;
+        bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-
-        .btn
+    
+        img
         {
-            color: $textcolor;
-            background-color: $button_color;
-            border: #0D3B66;
+            width: 300px;
         }
-
-        .btn:hover
+    
+        p
         {
-            color: $hover_color;
+            margin: 0em;
+            font-family: monospace;
+            font-size: 30px;
+    
+            span
+            {
+                font-weight: bold;
+            }
+        }
+    
+        .img_div
+        {
+            text-align: center; 
+        }
+    
+        .button_div
+        {
+            padding-top: 5%;
+            text-align: center;
+    
+            .btn
+            {
+                color: $textcolor;
+                background-color: $button_color;
+                border: #0D3B66;
+            }
+    
+            .btn:hover
+            {
+                color: $hover_color;
+            }
         }
     }
+    
+    #all_hounds
+    {
+
+        
+        .card_div
+        {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 8%;
+
+            .card
+            {
+                margin: 10px;
+            }
+        }
+    }
+    
 }
 
-#all_hounds
-{
-    background-color: black;
-}

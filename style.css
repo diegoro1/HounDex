@@ -21,36 +21,46 @@ body {
   .navbar .collapsing, .navbar .navbar.show, .navbar .collapse {
     background: #383833 !important; }
 
-.starter {
-  position: absolute;
-  top: 10%;
-  bottom: 20px;
-  width: 100%;
+.main {
   display: flex;
-  justify-content: center;
-  align-items: center; }
-  .starter img {
-    width: 300px; }
-  .starter p {
-    margin: 0em;
-    font-family: monospace;
-    text-shadow: black;
-    font-size: 30px; }
-    .starter p span {
-      font-weight: bold; }
-  .starter .img_div {
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%; }
+  .main .starter {
+    height: 100vh;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center; }
-  .starter .button_div {
-    padding-top: 5%;
-    text-align: center; }
-    .starter .button_div .btn {
-      color: #F9F9F2;
-      background-color: #0D3B66;
-      border: #0D3B66; }
-    .starter .button_div .btn:hover {
-      color: #F24236; }
-
-#all_hounds {
-  background-color: black; }
+    .main .starter img {
+      width: 300px; }
+    .main .starter p {
+      margin: 0em;
+      font-family: monospace;
+      font-size: 30px; }
+      .main .starter p span {
+        font-weight: bold; }
+    .main .starter .img_div {
+      text-align: center; }
+    .main .starter .button_div {
+      padding-top: 5%;
+      text-align: center; }
+      .main .starter .button_div .btn {
+        color: #F9F9F2;
+        background-color: #0D3B66;
+        border: #0D3B66; }
+      .main .starter .button_div .btn:hover {
+        color: #F24236; }
+  .main #all_hounds .card_div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 8%; }
+    .main #all_hounds .card_div .card {
+      margin: 10px; }
 
 /*# sourceMappingURL=style.css.map */
