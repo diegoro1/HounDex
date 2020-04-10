@@ -50,6 +50,7 @@ body
     align-items: center;
     flex-direction: column;
     margin-top: 4%;
+    
 
     .starter
     {
@@ -102,16 +103,24 @@ body
         }
     }
     
-    #all_hounds
+    #all_hounds, #top_hound
     {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
+        @media screen and (max-width: 600px) 
+        {
+            .response
+            {
+                padding-top: 30px;
+            }
+        }
+
         .title
         {
             font-size: 36px;
-            margin-top: 12%;
+            margin-top: 6%;
             width: 100%;
             text-align: center;
         }
@@ -147,7 +156,21 @@ body
         {
             float: left;
         }
+
+        .gold
+        {
+            background-color: #d4af37;
+        }
     }
+
     
 }
+
+#top_hound
+{
+    margin-top: 0em;
+}
+
+
+
 
