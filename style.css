@@ -53,36 +53,52 @@ body {
         border: #0D3B66; }
       #main .starter .button_div .btn:hover {
         color: #F24236; }
-  #main #all_hounds, #main #top_hound {
+  #main #all_hounds, #main #top_hound, #main #best_howl, #main #sniff {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
     @media screen and (max-width: 600px) {
-      #main #all_hounds .response, #main #top_hound .response {
-        padding-top: 30px; } }
-    #main #all_hounds .title, #main #top_hound .title {
+      #main #all_hounds .response, #main #top_hound .response, #main #best_howl .response, #main #sniff .response {
+        padding-top: 34px; }
+      #main #all_hounds .response2, #main #top_hound .response2, #main #best_howl .response2, #main #sniff .response2 {
+        padding: 40px; } }
+    #main #all_hounds .title, #main #top_hound .title, #main #best_howl .title, #main #sniff .title {
       font-size: 36px;
-      margin-top: 6%;
+      margin-top: 5%;
       width: 100%;
       text-align: center; }
-    #main #all_hounds .card_div, #main #top_hound .card_div {
+    #main #all_hounds .title_alt, #main #top_hound .title_alt, #main #best_howl .title_alt, #main #sniff .title_alt {
+      font-size: 36px;
+      margin-top: 2%;
+      width: 100%;
+      text-align: center; }
+    #main #all_hounds .title_alt2, #main #top_hound .title_alt2, #main #best_howl .title_alt2, #main #sniff .title_alt2 {
+      font-size: 36px;
+      margin-top: 1%;
+      width: 100%;
+      text-align: center; }
+    #main #all_hounds .card_div, #main #top_hound .card_div, #main #best_howl .card_div, #main #sniff .card_div {
       display: flex;
       width: 100%;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-evenly;
       margin-top: 2%; }
-      #main #all_hounds .card_div .card, #main #top_hound .card_div .card {
+      #main #all_hounds .card_div .card, #main #top_hound .card_div .card, #main #best_howl .card_div .card, #main #sniff .card_div .card {
         margin: 10px;
         margin-top: 40px; }
-        #main #all_hounds .card_div .card li.list-group-item, #main #top_hound .card_div .card li.list-group-item {
+        #main #all_hounds .card_div .card li.list-group-item, #main #top_hound .card_div .card li.list-group-item, #main #best_howl .card_div .card li.list-group-item, #main #sniff .card_div .card li.list-group-item {
           height: 44px; }
-    #main #all_hounds .left, #main #top_hound .left {
+    #main #all_hounds .left, #main #top_hound .left, #main #best_howl .left, #main #sniff .left {
       float: right; }
-    #main #all_hounds .right, #main #top_hound .right {
+    #main #all_hounds .right, #main #top_hound .right, #main #best_howl .right, #main #sniff .right {
       float: left; }
-    #main #all_hounds .gold, #main #top_hound .gold {
+    #main #all_hounds .gold, #main #top_hound .gold, #main #best_howl .gold, #main #sniff .gold {
       background-color: #d4af37; }
+    #main #all_hounds .silver, #main #top_hound .silver, #main #best_howl .silver, #main #sniff .silver {
+      background-color: #aaa9ad; }
+    #main #all_hounds .bronze, #main #top_hound .bronze, #main #best_howl .bronze, #main #sniff .bronze {
+      background-color: #b08d57; }
 
 #top_hound {
   margin-top: 0em; }

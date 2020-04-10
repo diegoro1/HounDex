@@ -103,7 +103,7 @@ body
         }
     }
     
-    #all_hounds, #top_hound
+    #all_hounds, #top_hound, #best_howl, #sniff
     {
         display: flex;
         flex-direction: row;
@@ -113,14 +113,35 @@ body
         {
             .response
             {
-                padding-top: 30px;
+                padding-top: 34px;
+            }
+
+            .response2
+            {
+                padding: 40px;
             }
         }
 
         .title
         {
             font-size: 36px;
-            margin-top: 6%;
+            margin-top: 5%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .title_alt
+        {
+            font-size: 36px;
+            margin-top: 2%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .title_alt2
+        {
+            font-size: 36px;
+            margin-top: 1%;
             width: 100%;
             text-align: center;
         }
@@ -160,6 +181,16 @@ body
         .gold
         {
             background-color: #d4af37;
+        }
+
+        .silver
+        {
+            background-color: #aaa9ad;
+        }
+
+        .bronze
+        {
+            background-color: #b08d57;
         }
     }
 
