@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth; }
 
-body {
+body, footer {
   font-family: monospace;
   background-color: #F9F9F2; }
 
@@ -102,5 +102,21 @@ body {
 
 #top_hound {
   margin-top: 0em; }
+
+.foot {
+  background-color: #383833;
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .foot p {
+    margin-bottom: 0em;
+    color: #F9F9F2; }
+  .foot a {
+    color: #FFE711; }
+  .foot a:hover {
+    text-decoration: none;
+    color: #F24236; }
 
 /*# sourceMappingURL=style.css.map */

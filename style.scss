@@ -10,7 +10,7 @@ html
   scroll-behavior: smooth;
 }
 
-body
+body, footer
 {
     font-family: monospace;
     background-color: $background_color;
@@ -39,9 +39,11 @@ body
         color: $brand_color !important;
     }
 
-    .collapsing, .navbar.show, .collapse{
+    .collapsing, .navbar.show, .collapse
+    {
     background: $nav_color !important;
-}
+    }
+
 }
 
 #main
@@ -200,6 +202,34 @@ body
 #top_hound
 {
     margin-top: 0em;
+}
+
+.foot
+{
+    background-color: $nav_color;
+    width: 100%;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p
+    {
+        margin-bottom: 0em;
+        color: $textcolor;
+    }
+
+    a
+    {
+        color: #FFE711;
+    }
+
+    a:hover
+    {
+        text-decoration: none;
+        color: $hover_color;
+    }
+    
 }
 
 
