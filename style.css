@@ -119,7 +119,20 @@ body, footer {
     text-decoration: none;
     color: #F24236; }
 
+.title_alt3 {
+  font-size: 36px;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center; }
+
 .container {
   margin-top: 6rem; }
+
+.disclaim a {
+  color: #0D3B66; }
+.disclaim a:hover {
+  text-decoration: none;
+  color: #F24236; }
 
 /*# sourceMappingURL=style.css.map */
